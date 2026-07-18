@@ -1,10 +1,10 @@
 # Calculator
 
-A thematic and responsive calculator application that allows users to easily add, subtract, multiply, and divide positive integers and floating point numbers.
+A thematic and responsive calculator application that allows users to easily add, subtract, multiply, divide and mod positive integers and floating point numbers.
 
 ## Link
 
-Try it here: https://mully7773.github.io/Calculator/
+Try it here: 
 
 ## Screenshots
 
@@ -14,15 +14,9 @@ Try it here: https://mully7773.github.io/Calculator/
 
 ![Screenshot of dark-theme on desktop](./images/screenshots/dark-theme-desktop.png)
 
-<br>
-
-![Screenshot of pastel-theme on mobile](./images/screenshots/mobile-pastel-theme.png)
-
-<br>
-
 ## Description
 
-This is a basic calculator application I built using HTML, CSS, and JavaScript. It is a challenge from Frontend Mentor, which you can learn more about [here](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). I changed the second theme to a more pastel-ish one that I felt was unique and easy on the eyes.
+This is a basic calculator application I built using HTML, CSS, and JavaScript. Since I am currently learning web development, this project helped me understand the core concepts of HTML, CSS, and JavaScript, as well as how they work together to create a responsive and interactive web page.  
 
 ## Functionality
 
@@ -46,8 +40,3 @@ JavaScript
 MVC architecture
 <br>
 Mobile responsiveness
-
-## Questions:
-
-Feel free to contact me at mully7773@gmail.com if you have any questions. <br>
-You can view more of my projects at https://github.com/Mully7773.
