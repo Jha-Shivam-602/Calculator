@@ -4,7 +4,7 @@ A thematic and responsive calculator application that allows users to easily add
 
 ## Link
 
-Try it here: https://jha-shivam-602.github.io/Calculator/
+[Try the Calculator](https://jha-shivam-602.github.io/Calculator/)
 
 ## Screenshots
 
