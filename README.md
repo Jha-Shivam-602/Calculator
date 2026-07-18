@@ -8,11 +8,11 @@ Try it here:
 
 ## Screenshots
 
-![Screenshot of light-theme on desktop](./images/screenshots/light-theme-desktop.png)
+![Screenshot of light-theme on desktop](./images/screenshots/light.png)
 
 <br>
 
-![Screenshot of dark-theme on desktop](./images/screenshots/dark-theme-desktop.png)
+![Screenshot of colour-theme on desktop](./images/screenshots/colour.png)
 
 ## Description
 
