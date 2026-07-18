@@ -1,0 +1,365 @@
+/* Styles regardless of theme */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 100vw;
+  transition: all 0.3s;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 50%;
+  /* width: 25%; */
+  row-gap: 2.4rem;
+}
+
+.theme-numbers {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style: none;
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+  align-items: flex-end;
+  margin-bottom: -2.3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  text-transform: lowercase;
+}
+
+/* .theme-input {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+} */
+
+.color-picker > fieldset {
+  border: 0;
+  width: fit-content;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.theme-text {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  /* align-self: flex-end; */
+}
+
+input {
+  height: 1.1rem;
+  width: 1.2rem;
+  appearance: none;
+  background-color: #000;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.tri-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0.3rem;
+  border-radius: 5rem;
+}
+
+.btn {
+  appearance: none;
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+
+#toggle-one {
+  opacity: 1;
+}
+
+.calc-display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.6rem;
+  padding: 2.6rem;
+}
+
+.calc-numbers {
+  font-size: 3.6rem;
+}
+
+.calc-input-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.8rem;
+  padding: 2rem;
+  border-radius: 0.6rem;
+}
+
+.calcBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.9rem;
+  width: 6.6rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 2.8rem;
+  padding-top: 0.3rem;
+  transition: all 0.3s;
+}
+
+.decimalBtn {
+  font-size: 2.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.resetBtn,
+.delBtn {
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  width: 100%;
+  grid-column: 1 / 3;
+  letter-spacing: 0.05rem;
+}
+
+.delBtn {
+  grid-column: initial;
+}
+
+.equalsBtn,
+.equals-wrapper {
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #de796d;
+}
+/* Theme 1 */
+.body-theme-one {
+  background-color: #4e5974;
+  color: #fff;
+}
+
+.tri-toggle-theme-one {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.btn-theme-one {
+  background-color: hsl(6, 63%, 50%);
+}
+
+.calc-display-theme-one {
+  background-color: hsl(224, 36%, 15%);
+}
+
+.calc-input-container-theme-one {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.calc-numbers-theme-one {
+  color: #fff;
+}
+
+.calcBtn-theme-one {
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  box-shadow: 0 0.3rem hsl(28, 16%, 65%);
+}
+
+.calcBtn-theme-one:hover {
+  background-color: #fff;
+}
+
+.resetBtn-theme-one,
+.delBtn-theme-one {
+  background-color: #637097;
+  color: #fff;
+  box-shadow: 0px 0.3rem hsl(224, 28%, 35%);
+}
+
+.resetBtn-theme-one:hover,
+.delBtn-theme-one:hover {
+  background-color: #a1a9c1;
+}
+
+.equalsBtn-theme-one {
+  background-color: #d03f2f;
+  color: #fff;
+  box-shadow: 0px 0.3rem hsl(6, 70%, 34%);
+}
+
+.equalsBtn-theme-one:hover {
+  background-color: #de796d;
+}
+
+/* Theme 2 */
+.body-theme-two {
+  background-color: #41b3a3;
+}
+
+.tri-toggle-theme-two {
+  background-color: #e8a87c;
+}
+
+.btn-theme-two {
+  background-color: #9c717e;
+}
+
+.calc-display-theme-two {
+  background-color: #85cdca;
+}
+
+.calc-input-container-theme-two {
+  background-color: #e8a87c;
+}
+
+.calc-numbers-theme-two {
+  color: #0d2421;
+}
+
+.calcBtn-theme-two {
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  box-shadow: 0 0.3rem hsl(28, 16%, 65%);
+}
+
+.calcBtn-theme-two:hover {
+  background-color: #fff;
+}
+
+.toggle-switches-theme-two,
+.equalsBtn-theme-two {
+  background-color: #e27d60;
+}
+.equalsBtn-theme-two {
+  box-shadow: 0 0.3rem #b5644d;
+  color: #fff;
+}
+
+.toggle-switches-theme-two:hover,
+.equalsBtn-theme-two:hover {
+  background-color: #e89780;
+}
+
+.resetBtn-theme-two,
+.delBtn-theme-two {
+  color: #fff;
+  background-color: #c38d9e;
+  box-shadow: 0 0.3rem #9c717e;
+}
+
+.resetBtn-theme-two:hover,
+.delBtn-theme-two:hover {
+  background-color: #d5afbb;
+}
+
+/* Theme 3 */
+.body-theme-three {
+  background-color: hsl(268, 75%, 9%);
+  color: hsl(52, 100%, 62%);
+}
+
+.tri-toggle-theme-three {
+  background-color: hsl(290, 70%, 36%);
+}
+
+.btn-theme-three {
+  background-color: hsl(52, 100%, 62%);
+}
+
+.calc-display-theme-three {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.calc-input-container-theme-three {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.calc-numbers-theme-three {
+  color: hsl(52, 100%, 62%);
+}
+
+.calcBtn-theme-three {
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0 0.3rem hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+}
+
+.calcBtn-theme-three:hover {
+  background-color: hsl(290, 70%, 36%);
+}
+
+.calc-numbers-theme-three {
+  color: hsl(52, 100%, 62%);
+}
+
+.toggle-switches-theme-three,
+.equalsBtn-theme-three {
+  background-color: hsl(176, 100%, 44%);
+  color: hsl(198, 20%, 13%);
+}
+.equalsBtn-theme-three {
+  box-shadow: 0 0.3rem hsl(177, 92%, 70%);
+}
+
+.toggle-switches-theme-three:hover,
+.equalsBtn-theme-three:hover {
+  background-color: hsl(177, 92%, 70%);
+}
+
+.resetBtn-theme-three,
+.delBtn-theme-three {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0 0.3rem hsl(285, 91%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+
+.resetBtn-theme-three:hover,
+.delBtn-theme-three:hover {
+  background-color: hsl(285, 91%, 52%);
+}
+
+/* Divide by zero */
+.disable-keys {
+  pointer-events: none;
+}
+
+/* Other */
+.cursor-wrapper {
+  cursor: pointer;
+}
+
+.active-operand {
+  color: #ff9900;
+}
+
+/* Only visible for screen readers */
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
